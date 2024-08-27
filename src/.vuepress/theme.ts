@@ -1,7 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
-import { MR_HOPE_AVATAR } from "./logo.js";
 
 export default hopeTheme({
   hostname: "https://ifrank.xyz",
@@ -34,7 +33,6 @@ export default hopeTheme({
     description: "你大可不必关心我是谁",
     intro: "/intro.html",
     avatar: '/avatar.gif',
-    roundAvatar: true,
     medias: {
       // Baidu: "https://example.com",
       BiliBili: "https://space.bilibili.com/274376020",
